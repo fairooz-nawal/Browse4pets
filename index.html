@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- google font  cdn-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Rancho&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- google font  cdn adam-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Rancho&display=swap" rel="stylesheet">
 
-    <!-- awesome font cdn -->
-    <script src="https://kit.fontawesome.com/8fd340d7f8.js" crossorigin="anonymous"></script>
+  <!-- google font  cdn sora-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
-    <!-- tailwind cdn -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+  <!-- awesome font cdn -->
+  <script src="https://kit.fontawesome.com/8fd340d7f8.js" crossorigin="anonymous"></script>
 
-      <!-- daisy ui cdn -->
-      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-      <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- daisy ui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .sora {
+      font-family: "Sora", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+    }
+  </style>
 </head>
-<body>
-   
+
+<body class="sora">
+  <header>
+    <nav class="bg-orange-50">
+      <div class="navbar max-w-full lg:max-w-7xl mx-auto">
+        <div class="navbar-start">
+          <div class="flex items-center">
+            <div class=""><img class="w-10/12 mx-auto" src="./c1-assets/logo-header.png" alt=""></div>
+            <div class="hidden lg:block"><a class="btn btn-ghost text-xl gap-0">Browse <span class="text-yellow-400">4</span>Pets</a></div>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Find a Pet</a></li>
+            <li><a>Breed</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="w-1/2 block lg:hidden flex justify-end">
+            <div class="w-1/2"><i class="fa-solid fa-bars text-2xl"></i></div>
+          </div>
+          <div class="hidden lg:block lg:w-full lg:flex lg:justify-end items-center">
+            <div class="w-1/2 flex justify-end items-center gap-4 pr-4">
+              <div class=""><i class="fa-regular fa-bell text-2xl"></i></div>
+              <div class=""><i class="fa-solid fa-magnifying-glass text-2xl"></i></div>
+            </div>
+            <div class="w-1/2 flex justify-end gap-2 items-center">
+              <button class="btn w-1/2 border-2 border-yellow-400">Login</button>
+              <button class="btn w-1/2 bg-yellow-400 text-white">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="lg:hidden boder-2 border-black">
+    </nav>
+    <section class="banner"></section>
+  </header>
+  <main></main>
+  <footer></footer>
 </body>
+
 </html>
