@@ -96,7 +96,7 @@
       </div>
     </section>
   </header>
-  <main>
+  <main class="relative">
     <!-- cards section -->
     <section>
       <div class="max-w-full lg:max-w-7xl mx-auto my-5 lg:my-[100px] p-5">
@@ -142,7 +142,73 @@
       </div>
     </section>
 
-    <!-- trending pet prodection section -->
+    <!-- extra section -->
+    <section class="bg-yellow-200">
+      <div class="max-w-full lg:max-w-7xl mx-auto my-5 lg:my-[100px] p-5">
+        <h1 class="adam text-xl lg:text-3xl">Our Pets</h1><br>
+        <div class="carousel w-full h-[550px] lg:h-[400px] bg-amber-50 rounded-xl">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+              <div class="col-span-2 bg-amber-50">
+                <div class="w-3/4 mx-auto p-5 pt-10">
+                  <h1 class="adam text-xl lg:text-3xl">Majestic and Mysterious: The Cat</h1><br>
+                <p class="hidden lg:block">Cats are graceful, independent, and curious creatures that have been cherished companions to humans for centuries. Known for their agility, keen hunting instincts, and affectionate yet reserved nature, cats possess a unique charm that captivates people worldwide. Whether curled up in a cozy spot, playfully chasing a toy, or gazing intently with their enigmatic eyes, cats embody both elegance and mystery. Their purring provides comfort, while their unpredictable antics bring joy. </p><br>
+                <button class="btn bg-yellow-400 animate-bounce">Buy Now</button>
+                </div>
+                
+              </div>
+              <div class="col-span-1 lg:mt-[30%] lg:mr-10">
+                <img src="./c1-assets/cat-big.png" class="w-full border-2 border-yellow-400 rounded-xl" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+              <div class="col-span-2 bg-amber-50">
+                <div class="w-3/4 mx-auto p-5 pt-10">
+                  <h1 class="adam text-xl lg:text-3xl">Loyal and Loving: The Dog</h1><br>
+                <p class="hidden lg:block">Dogs are faithful, affectionate, and intelligent companions, often referred to as "man's best friend." Known for their unwavering loyalty and boundless energy, dogs form deep bonds with their owners and thrive on companionship. Whether joyfully wagging their tails, eagerly playing fetch, or offering comfort with a gentle nuzzle, dogs bring warmth and happiness to any home. </p><br>
+                <button class="btn bg-yellow-400 animate-bounce">Buy Now</button>
+                </div>
+                
+              </div>
+              <div class="col-span-1 lg:mt-[10%] lg:mr-10">
+                <img src="./c1-assets/cute-pet-mid.png" class="w-3/4 mx-auto bg-white border-2 border-yellow-400 rounded-xl" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-3">
+              <div class="col-span-2 bg-amber-50">
+                <div class="w-3/4 mx-auto p-5 pt-10">
+                  <h1 class="adam text-xl lg:text-3xl">Graceful and Free: The Bird</h1><br>
+                <p class="hidden lg:block">Birds are enchanting creatures known for their vibrant feathers, melodious songs, and the ability to soar through the skies. With their diverse species ranging from tiny hummingbirds to majestic eagles, birds symbolize freedom and beauty. Whether chirping happily in the morning, gliding effortlessly on the wind, or showcasing dazzling colors, they bring a sense of wonder to the world.</p><br>
+                <button class="btn bg-yellow-400 animate-bounce">Buy Now</button>
+                </div>
+                
+              </div>
+              <div class="col-span-1 lg:mr-10">
+                <img src="./c1-assets/bird.jpg" class="w-full border-2 border-yellow-400 rounded-xl" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- trending pet production section -->
     <section class="bg-amber-50">
       <div class="max-w-full lg:max-w-7xl mx-auto my-5 lg:my-[100px] p-5 ">
         <h1 class="adam text-xl lg:text-3xl">Trending Pet Products</h1><br>
@@ -277,6 +343,18 @@
         </div>
       </div>
     </section>
+
+    <!-- get pwesome news section -->
+    <sectionn class="absolute bottom-0">
+      <div class="max-w-full lg:max-w-7xl mx-auto my-5 lg:my-[100px] p-5 bg-amber-50 ">
+        <div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div class="p-5 rounded-xl">
+            img
+          </div>
+          <div class="col-span-2"></div>
+        </div>
+      </div>
+      </section>
   </main>
   <footer class="bg-yellow-200">
     <footer class="footer text-base-content p-10 max-w-full mx-auto lg:max-w-7xl pt-[500px] lg:pt-[300px] ">
@@ -284,8 +362,8 @@
         <div class="w-full ">
           <div class="flex items-center">
             <div class=""><img class="w-10/12 mx-auto" src="./c1-assets/logo-footer.png" alt=""></div>
-            <div class=""><a class="btn btn-ghost text-xl gap-0">Browse <span
-                  class="text-yellow-400">4</span>Pets</a></div>
+            <div class=""><a class="btn btn-ghost text-xl gap-0">Browse <span class="text-yellow-400">4</span>Pets</a>
+            </div>
           </div><br>
           <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
         </div>
@@ -319,7 +397,7 @@
               </svg>
             </a>
             <a>
-             <img src="./c1-assets/insta.png" alt="">
+              <img src="./c1-assets/insta.png" alt="">
             </a>
           </div>
         </div>
